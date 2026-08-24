@@ -163,8 +163,7 @@ button,input,select,textarea{font:inherit}button{cursor:pointer}.hidden{display:
 <div id="detailModal" class="modal hidden"><div class="modal-box"><div class="toolbar"><h2 id="dTitle" style="margin:0"></h2><button class="btn" onclick="closeDetail()">닫기</button></div><div id="dBody"></div></div></div>
 
 <script>
-const CONFIG={SUPABASE_URL:"NEXT_PUBLIC_SUPABASE_URL=https://nsxzsrekdxwlapssxbun.supabase.co
-",SUPABASE_KEY:"NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY=sb_publishable_Ejw5daf7lprdHEyojRDZKA_gT0Tcq0L"};
+const CONFIG={SUPABASE_URL:"https://nsxzsrekdxwlapssxbun.supabase.co",SUPABASE_KEY:"sb_publishable_Ejw5daf7lprdHEyojRDZKA_gT0Tcq0L"};
 const db=supabase.createClient(CONFIG.SUPABASE_URL,CONFIG.SUPABASE_KEY);
 let map,geocoder,rows=[],user=null,role=null,markers=[],labels=[],editId=null;
 
